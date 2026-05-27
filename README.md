@@ -12,3 +12,5 @@ Das ist die README.md-Datei. md steht für Markdown. Markdown ist eine im Intern
 
 - wurde in den 1970er-Jahren erfunden
 - Motivation: Schaffung eines dezentralen Netzwerks, das auch nach einem Atomschlag noch funktioniert (Kontext des Kalten Krieges)
+- Funktionsweise: Paketvermittlung (*Packet Switching*) - jedes Datenpaket sucht sich eine eigene Route durch das Netzwerk
+- Internet: das Netz der Netze - besteht aus vielen kleinen Netzen unterschiedlicher Internetanbieter (*Internet Service Provider - ISP*, z.B.: A1, Magenta, Salzburg AG, ...)
