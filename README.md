@@ -10,5 +10,5 @@ Das ist die README.md-Datei. md steht für Markdown. Markdown ist eine im Intern
 
 ### Teil 1 - What is the Internet?
 
-– wurde in den 1970er-Jahren erfunden
+- wurde in den 1970er-Jahren erfunden
 - Motivation: Schaffung eines dezentralen Netzwerks, das auch nach einem Atomschlag noch funktioniert (Kontext des Kalten Krieges)
