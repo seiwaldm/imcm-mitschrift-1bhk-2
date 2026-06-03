@@ -44,3 +44,29 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 - jedes Gerät im Internet hat zumindest eine (eindeutige) IP-Adresse, viele Geräte haben aber eine externe IP (ähnlich wie die Hausnummer) und eine interne IP (ähnlich wie die Raumnummer)
 - das Domain Name System (DNS) übersetzt menschenlesbare Domainnamen (z.B.: www.google.com) in IP-Adressen
 - DNS-Server führen Tabellen mit Domainnamen und den entsprechenden IP-Adressen
+
+
+### Teil 4 - The Internet: Packets, Routing and Reliability
+
+- Daten, die über das Internet versendet werden, werden in Pakete aufgeteilt
+- Pakete sind in der Regel rund 1500 Byte groß (= 1.5 KB). das heißt, ein 10MB großes Foto würde in etwa 6667 Pakete aufgeteilt werden (10MB = 10.000KB = 10.000.000 Byte / 1500 Byte = 6667 Pakete)
+- Pakete können unterschiedliche Routen durch das Internet nehmen. Die Routenplanung erfolgt durch spezielle Computer - sogenannte Router. Router entscheiden, welchen Weg ein Paket durch das Internet nimmt. Die Entscheidung basiert auf verschiedenen Faktoren, wie z.B. der aktuellen Auslastung der Verbindungen und der Entfernung zum Ziel.
+- jedes Paket enthält die IP-Adressen der Quelle und des Ziels sowie die Reihenfolge der Pakete (damit sie am Ziel wieder korrekt zusammengesetzt werden können)
+- am Ziel wird die Vollständigkeit der Pakete durch das *Transmission Control Protocol* (TCP) überprüft. Wenn Pakete verloren gehen, fordert TCP die erneute Übertragung an.
+- TCP und IP bilden gemeinsam die Basis für die Funktionsweise des Internets - man spricht auch vom TCP/IP-Modell
+
+### Teil 5 - The Internet: HTTP and HTML
+
+- das *Hypertext Transfer Protocol* (HTTP) ist das Protokoll, das für die Übertragung von Webseiten verwendet wird
+- der Ablauf ist immer derselbe:
+    1. der Web-Client (Browser) schickt eine HTTP-Anfrage (*Request*) an den Web-Server
+    2. der Web-Server übernimmt die Anfrage, bearbeitet sie und schickt eine HTTP-Antwort (*Response*) zurück an den Client. Dabei versieht er die Antwort mit einem [HTTP-Statuscode](https://de.wikipedia.org/wiki/HTTP-Statuscode). Diese sind in verschiedene Klassen eingeteilt.
+
+    > [!NOTE]
+    > #### HTTP-Statuscode-Klassen
+    >
+    > - **1xx** - die Anfrage dauert noch an
+    > - **2xx** - die Anfrage war erfolgreich
+    > - **3xx** - Weiter- oder Umleitung
+    > - **4xx** - Clientfehler (z.B. 404 - Not Found)
+    > - **5xx** - Serverfehler
