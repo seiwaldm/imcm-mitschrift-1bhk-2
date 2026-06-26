@@ -75,3 +75,19 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 - User-Input (Texteingaben, Dateiuploads, ...) werden mittels POST-Anfragen verschlüsselt übermittelt
 - GET und POST sind sogenannte **HTTP-Methoden**. Es gibt noch weitere Methoden, die wir erst später lernen.
 - HTTP-Anfragen und Antworten können auch **Cookies** enthalten. Das sind kleine Textdateien, die aus Schlüssel-Wert-Paaren (*key-value-pairs*) bestehen. Ist ein Cookie einmal gesetzt, wird es mit jeder Anfrage mitgesendet. So kann der Webserver einzelne User wiedererkennen bzw. identifizieren.
+
+
+---
+
+## Webtechnologien: HTML, CSS und JS
+
+![HTML-CSS-JS](/assets/html-css-js.png)
+
+### HTML - *Hypertext Markup Language*
+
+HTML gibt eine Struktur für die Webpageinhalte vor. Die `index.html` ist in der Regel der zentrale Einstiegspunkt für jede Website - alle weiteren Inhalte (Bilder, Videos, CSS-Stylesheets, JS-Files, usw.) werden über diese verknüpft.
+
+Die zentralen Bausteine von HTML sind die sogenannten **Tags**. Tags können mit Hilfe von **Attributen** erweitert werden. Attribute bestehen aus Schlüssel-Wert-Paaren (*key-value-pairs*). Der HTML-Quelltext einer Webpage wird vom Browser und von verschiedenen Bots (Suchmaschinen-Bots - *Crawler*, KI-Bots, ...) gelesen und interpretiert.
+
+![Aufbau eines HTML-Tags](/assets/html-tag.png)
+
